@@ -1,0 +1,83 @@
+body {
+   width: 100vw;
+   height: 100vh;
+   background-color: #8c4d52;
+   display: grid;
+   place-items: center;
+}
+
+.error {
+   position: absolute;
+   top: 0;
+   left: 50%;
+   transform: translateX(-50%);
+   padding: 16px;
+   width: 60%;
+   background-color: #593027;
+   font-size: 24px;
+}
+.blok1,
+.blok2 {
+   padding: 24px;
+   box-shadow: 0px 0px 9px #593027;
+   background-color: #f2c6c2;
+   border-radius: 4px;
+   display: grid;
+   place-items: center;
+   gap: 1rem;
+}
+.blok1 h1 {
+   color: #482922;
+}
+
+.blok1 input {
+   background-color: #d99f9a;
+   font-size: 24px;
+   width: 50px;
+   height: 100%;
+   padding: 6px 6px 6px 16px;
+   margin-right: 16px;
+   border-radius: 8px;
+   border: none;
+   box-shadow: 0px 0px 2px #593027;
+}
+.blok1 button,
+.blok2 button {
+   font-size: 18px;
+   padding: 8px 16px;
+   border-radius: 8px;
+   color: #482922;
+   border: none;
+   background-color: #d99f9a;
+   box-shadow: 0px 0px 2px #593027;
+   transition: transform 0.5s;
+}
+.blok1 button:hover,
+.blok2 button:hover {
+   background-color: #8c4d52;
+   box-shadow: 0px 0px 2px #bfa799;
+   transform: scale(1.1);
+   transition: 0.5s;
+   cursor: pointer;
+}
+.blok2 p {
+   padding: 8px;
+   width: 100%;
+   text-align: center;
+   background-color: #f5dfddb5;
+   font-size: 18px;
+}
+.blok2 input {
+   width: 100%;
+   font-size: 18px;
+   padding: 8px;
+}
+.blok2 ul {
+   width: 100%;
+   display: grid;
+   gap: 16px;
+   font-size: 18px;
+}
+.display {
+   display: none;
+}
